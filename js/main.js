@@ -22,7 +22,7 @@ let Aftertomorrow = days[ThirdDate.getDay()];
 
 
 async function getWeather(city) {
-   let data = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=c1f2821556df47d3808153426251906&q=${city? city:'egypt'}&days=3&aqi=no&alerts=no`);
+   let data = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=c1f2821556df47d3808153426251906&q=${city? city:'egypt'}&days=3&aqi=no&alerts=no`);
    let weather = await data.json();
    console.log(weather);
    firstDay(weather);
