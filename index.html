@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-bac py-4">
+        <div class="container">
+             <a class="navbar-brand text-white " href="#"><img src="images/rainy-day (1).png" alt="" class="img-wid"> </a>
+            <a class="navbar-brand text-white fw-bold" href="#"> Weather <span class="d-block navfont fw-light">tagline goes here</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto py-3 ">
+                <li class="nav-item pe-2 ps-2 ">
+                <a class="btn btn-outline-primary rounded-pill px-4 text-primary" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item pe-2 ps-2">
+                <a class="btn btn-hover rounded-pill px-4" href="#">News</a>
+                </li>
+                <li class="nav-item pe-2 ps-2">
+                <a class="btn btn-hover  rounded-pill px-4" href="#">Live cameras</a>
+                </li>
+                <li class="nav-item pe-2 ps-2">
+                <a class="btn btn-hover rounded-pill px-4" href="#">Photos</a>
+                </li>
+                <li class="nav-item ">
+                <a class="btn btn-hover  rounded-pill px-4" href="#">Contant</a>
+                </li>
+            </ul>
+            
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="content" class="py-5">
+            <div class="container">
+
+                <div class="searchdiv position-relative pt-5">
+                    <input type="search" id="search" class="form-control py-3 rounded-pill bg-bac" placeholder="Find Your Loction....">
+                    <button type="submit" class="btn btn-primary mb-3 text-white position-absolute posistion-corr rounded-pill py-2 px-5 btn-hover" id="searchbutton"> Find </button>        
+                </div>
+
+                <div class="row g-0 mt-5">
+                    <div class="col-md-4" id="firstDay">   
+                                        
+                    </div>
+
+                    <div class="col-md-4" id="secondDay">
+
+                    </div>
+                    <div class="col-md-4" id="thirdDay">
+
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <footer class="pt-5">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-md-8 ">
+                        <div class="searchdiv position-relative ">
+                            <input type="search" id="search" class="form-control py-3 rounded-pill bg-bac" placeholder="Enter Your Email...">
+                            <button type="submit" class="btn btn-primary mb-3 text-white position-absolute posistion-corr rounded-pill py-2 px-5 btn-hover"> Subscribe </button>       
+                        </div>
+                        <p class="py-4 fontcolor">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="iconsdiv  w-75  py-1 m-auto px-4 me-4">
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook  icon-hover "></i></a>
+                            <a href="https://x.com/"><i class="fa-brands fa-twitter  icon-hover "></i></a>
+                            <a href="https://www.google.com/"> <i class="fa-brands fa-google  icon-hover"></i></a>
+                            <a href="https://www.pinterest.com/"><i class="fa-brands fa-pinterest icon-hover"></i></a>   
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        
+        </footer>
+    </main>
+ 
+    <script src="js/bootstrap.bundle.min.js"></script>  
+    <script src="js/main.js"></script> 
+</body>
+</html>

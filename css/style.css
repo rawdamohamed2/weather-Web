@@ -1,0 +1,153 @@
+:root{
+    --primary-color: #1E202B;
+    --secondColor:#323544;
+    --fontcolor:rgb(101, 101, 104);
+}
+.container{
+    width: 75%;
+}
+
+
+/* __________________nav___________________ */
+.navbar .navfont{
+ color: #AAA59A;
+ font-size: 10px;
+}
+
+.btn:hover{
+    color:rgb(255, 255, 255);
+    background-color: transparent;
+}
+.navbar .btn-hover{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: none;
+    transition: all 0.1s;
+}
+
+.navbar .btn-hover:hover{
+    color: #1B7CBE;
+    border: solid 1px #1B7CBE;
+}
+.main .btn-hover{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: none;
+    transition: all 0.1s;
+}
+
+.main .btn-hover:hover{
+    color: #1B7CBE;
+    border: solid 1px #1B7CBE;
+}
+
+
+
+
+.bg-bac{
+    background-color: var(--primary-color);
+}
+footer .posistion-corr{
+    top: 8px;
+    right: 6px;
+}
+#content .bg-bac{
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+}
+#content .bg-bac::placeholder {
+    color: rgb(101, 101, 104);
+    padding: 6px;
+}
+
+#content{
+    height: 75dvh;
+    background:linear-gradient(to bottom ,rgba(0,0,0,0) 62%, rgb(30,32,43)38%),url('../images/banner.png');
+    background-size: 1950;
+    background-position: top;
+   
+}
+.posistion-corr{
+    top: 57px;
+    right: 6px;
+}
+
+
+
+
+/* footer */
+footer .bg-bac{
+    background-color: var(--primary-color);
+    border: none;
+}
+footer .bg-bac::placeholder {
+    color: var(--fontcolor);
+    padding: 6px;
+}
+footer{
+    background-color: var(--secondColor);
+}
+footer .fontcolor{
+    color: var(--fontcolor);
+
+}
+footer .icon-hover{
+     color: #1B7CBE;
+     font-size: 20px;
+     border: solid 0.5px #0085e300;
+     padding-inline: 9.1px;
+     padding-block: 7px;
+     border-radius: 50%;
+     background-color: var(--primary-color);
+     transition: all 0.4s;
+}
+footer .icon-hover:hover{
+     color: #ffffff;
+     background-color: #1B7CBE;
+}
+
+
+
+/* ---------------------------------------------- */
+.divTemp .font-size{
+    font-size: 97px;
+    font-weight: 650;
+}
+.divTemp .absolu{
+    bottom: 40px;
+    left: 0px;
+}
+.bg-bac2{
+    background-color: #323544;
+}
+.fontcolor{
+    color: #BFC1C0;
+
+}
+.backgheader{
+    background-color: #2D303D;
+}
+.div2Temp .absolu{
+    bottom: 15px;
+    left: 0px;
+}
+.absolu{
+   bottom: 15px;
+    left: 0px; 
+}
+#content .card-height{
+    height: 311px;
+}
+.bg-bac3{
+    background-color: #262936;
+}
+.backgheader1{
+    background-color: #222530;
+}
+.card-body .img-icon{
+    bottom:  20px;
+    left: 0px;
+    width: 150px;
+    height: 90px;
+}
