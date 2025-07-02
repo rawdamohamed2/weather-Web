@@ -4,7 +4,7 @@
     --fontcolor:rgb(101, 101, 104);
 }
 .container{
-    width: 75%;
+    width: 80%;
 }
 
 
@@ -62,7 +62,7 @@ footer .posistion-corr{
 }
 
 #content{
-    height: 75dvh;
+    min-height: 75dvh;
     background:linear-gradient(to bottom ,rgba(0,0,0,0) 62%, rgb(30,32,43)38%),url('../images/banner.png');
     background-size: 1950;
     background-position: top;
@@ -151,3 +151,32 @@ footer .icon-hover:hover{
     width: 150px;
     height: 90px;
 }
+.size{
+    width: 20px;
+    height: 20px;
+}
+.sizefont{
+    font-size: 10px;
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .posistion-corr{
+    top: 56px;
+    right: 6px;
+  }
+  .size{
+        width: 15px;
+        height: 15px;
+    }
+}
+@media screen and (min-width: 424px) and (max-width: 767px) {
+  .posistion-corr{
+    top: 56px;
+    right: 6px;
+  }
+  .size{
+        width: 15px;
+        height: 15px;
+    }
+
+}
+
