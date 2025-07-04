@@ -47,9 +47,9 @@ function firstDay(weather){
                                 <img src="https:${weather.current.condition.icon}" alt="Weather icon" class="img-icon position-relative" >
                                </div>
                                <p class="text-primary pt-2">${weather.current.condition.text}</p>
-                               <span class="pe-lg-3 pe-md-1 mt-2"><img src="images/umbrella.png" alt="Weather icon" class="px-lg-1 size">${weather.forecast.forecastday[0].day.daily_chance_of_rain}%</span>
-                               <span class="pe-lg-3 pe-md-1 mt-2"><i class="fa-solid fa-wind fontcolor sizefont"></i> ${weather.current.wind_kph}km/h</span>
-                               <span class="ps-lg-3 pe-md-1 mt-2"><img src="images/compass.png" alt="Weather icon"  class="px-lg-1 size">${weather.current.wind_dir}</span>
+                               <span class="pe-md-1 pe-sm-0 mt-2"><img src="images/umbrella.png" alt="Weather icon" class="px-lg-1 size">${weather.forecast.forecastday[0].day.daily_chance_of_rain}%</span>
+                               <span class="pe-md-1 pe-sm-0 mt-2"><i class="fa-solid fa-wind fontcolor sizefont"></i> ${weather.current.wind_kph}km/h</span>
+                               <span class="pe-md-1 pe-sm-0 mt-2"><img src="images/compass.png" alt="Weather icon"  class="px-lg-1 size">${weather.current.wind_dir}</span>
                             </div>
                         </div>
                      </div>`;
