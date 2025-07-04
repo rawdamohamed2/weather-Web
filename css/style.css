@@ -65,8 +65,7 @@ footer .posistion-corr{
     min-height: 75dvh;
     background:linear-gradient(to bottom ,rgba(0,0,0,0) 62%, rgb(30,32,43)38%),url('../images/banner.png');
     background-size: 1950;
-    background-position: top;
-   
+    background-position: top; 
 }
 .posistion-corr{
     top: 57px;
@@ -167,6 +166,7 @@ footer .icon-hover:hover{
         width: 15px;
         height: 15px;
     }
+    
 }
 @media screen and (min-width: 424px) and (max-width: 767px) {
   .posistion-corr{
@@ -177,9 +177,21 @@ footer .icon-hover:hover{
         width: 15px;
         height: 15px;
     }
+    .rowg{
+        gap: 10px;
+    }
 
 }
 
 
-
+@media screen and (min-width: 374px) and (max-width: 424px) {
+    .rowg{
+        gap: 10px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .rowg{
+        gap: 10px;
+    } 
+}
 
